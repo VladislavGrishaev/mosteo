@@ -1,0 +1,590 @@
+@font-face
+    font-family: SF-UI-Display
+    src: url(../fonts/SF-UI-Display.ttf)
+
+body
+    margin: 0
+    padding: 0
+    ul, p
+        margin: 0
+        padding: 0
+    li
+        list-style: none
+    a
+        text-decoration: none
+
+.header
+    &__nav_wrap, &__info
+        padding-left: 10%
+        padding-right: 10%
+    a
+        font-family: 'Montserrat', sans-serif
+        color: #414141
+        font-weight: bold
+    ul li a:hover, &__call a:hover
+        color: #FF8E00
+    
+    &__menu ul li a, &__nav ul li a
+        text-transform: uppercase
+    .fa-phone
+        background: #FF8E00
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 40px
+        height: 40px
+        color: #fff
+        font-size: 18px
+        border-radius: 50%
+    .fa-phone:hover
+        background: rgb(17,17,17)
+        background: -moz-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: -webkit-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#111111",endColorstr="#ff8e00",GradientType=1)
+    &__nav_wrap, ul, &__call
+        display: flex
+    &__nav_wrap, &__call
+        align-items: center
+    &__nav_wrap
+        justify-content: space-between
+        padding-top: 18px
+        padding-bottom: 18px
+    &__nav ul li
+        margin-right: 20px
+    .phone-img
+        margin-right: 15px
+    &__info
+        background-image: url('../img/bg.png')
+        background-repeat: no-repeat
+        background-size: cover
+    &__title p
+        color: #fff
+        font-family: 'Montserrat', sans-serif
+        font-weight: bold
+        font-size: 46px
+        line-height: 60px
+    &__title_info p
+        color: #fff
+        font-size: 24px
+        font-family: SF-UI-Display, sans-serif
+    &__link_btn
+        color: #fff !important
+        font-family: 'Montserrat', sans-serif
+        font-size: 14px 
+        background: #FF8E00
+        padding-top: 15px
+        padding-bottom: 15px
+        padding-left: 25px
+        padding-right: 25px
+        border-radius: 7px
+    &__link_btn:hover
+        background: rgb(17,17,17)
+        background: -moz-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: -webkit-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#111111",endColorstr="#ff8e00",GradientType=1)
+    &__title
+        padding-top: 200px
+    &__title_info
+        padding-top: 40px
+    &__btn
+        margin-top: 80px
+        padding-bottom: 123px
+    .mobile-wrap
+        display: none
+
+.info
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+    p
+        font-family: 'Montserrat', sans-serif
+        font-size: 18px
+        line-height: 145%
+        letter-spacing: 0.01em
+        color: #111111
+        margin-top: 20px
+    span
+        font-size: 28px
+        font-weight: bold
+        color: #111111
+        text-transform: uppercase
+        font-family: 'Montserrat', sans-serif
+    &__title
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 50px 
+        margin-top: -70px       
+        width: 50%
+        box-shadow: 0px 0px 12px 0px rgba(0,0,0,1)
+        padding-left: 50px
+        padding-right: 50px
+        padding-top: 70px
+        padding-bottom: 70px
+        background-color: #fff
+
+.cooperation
+    background-color: #2A2A2A
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+    &__title
+        font-size: 28px
+        font-weight: bold
+        color: #fff
+        font-family: 'Montserrat', sans-serif
+        padding-top: 80px
+    &__img
+        background: #FF8E00
+        border: 4px solid #FF8E00
+        border-radius: 50%
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 98px
+        height: 98px
+        box-sizing: border-box
+    &__title_info
+        font-family: SF-UI-Display
+        font-size: 17px
+        line-height: 125%
+        letter-spacing: 0.01em
+        color: #FFFFFF
+        margin-top: 25px
+        width: 60%
+        //text-align: center
+    &__benefit_info
+        display: flex
+        justify-content: space-around
+        margin-top: 65px
+    &__info_wrap
+        display: flex
+        flex-direction: column
+        width: 90%
+    &__benefit
+        padding-bottom: 80px
+    .last-img
+        margin-left: -10px
+    &__img:hover
+        transform: rotate(360deg)
+        cursor: pointer
+    &__img
+        transition: transform .8s ease-in-out
+
+.franch
+    &__wrap
+        padding-left: 10%
+        
+    &__title
+        padding-top: 80px
+        font-size: 28px
+        font-weight: bold
+        color: #111111
+        font-family: 'Montserrat', sans-serif
+        padding-right: 10%
+    ul
+        padding-right: 10%
+    li p
+        color: #111111
+        font-family: 'Montserrat', sans-serif
+        font-size: 18px
+
+    li
+        margin-bottom: 30px
+        padding-left: 90px
+        display: flex
+        align-items: center
+    &__info_wrap
+        margin-top: 65px
+        padding-bottom: 80px
+        display: flex
+    &__info
+        z-index: 1
+        width: 100%
+    span
+        font-family: 'Montserrat', sans-serif
+        color: #FF8E00
+        font-weight: bold
+        font-size: 26px
+        border-radius: 50%
+        padding: 20px
+        margin-right: 18px
+        margin-left: -90px
+        background: #FFFFFF
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15)
+        height: 30px
+        width: 30px
+
+    &__link_btn
+        color: #fff !important
+        font-family: 'Montserrat', sans-serif
+        font-size: 14px
+        background: #FF8E00
+        padding-top: 15px
+        padding-bottom: 15px
+        padding-left: 25px
+        padding-right: 25px
+        border-radius: 7px
+    &__link_btn:hover
+        background: rgb(17,17,17)
+        background: -moz-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: -webkit-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#111111",endColorstr="#ff8e00",GradientType=1)
+    &__btn
+        margin-top: 90px
+    &__img
+        width: 90%
+    &__img img
+        width: 40%
+        position: absolute
+        right: 0
+
+    
+.study
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+    &__title p
+        padding-top: 80px
+        font-size: 28px
+        font-weight: bold
+        color: #111111
+        font-family: 'Montserrat', sans-serif
+        text-align: right
+    &__box p
+        font-family: SF-UI-Display, sans-serif
+        margin-top: 20px
+        color: #111111
+    &__info_wrap
+        margin-top: 65px
+        display: flex
+    &__img img
+        max-width: 100%
+        height: auto
+    &__circle
+        height: 98px
+        width: 98px
+        border: 4px solid #FF8E00
+        box-sizing: border-box
+        border-radius: 50%
+    &__img
+        margin-right: 20px
+    &__info
+        display: flex
+        margin-left: 20px
+    &__box
+        margin-bottom: 50px
+        width: 70%
+    
+
+.buisnes
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+    &__title
+        padding-top: 80px
+        width: 50%
+    &__title span
+        font-size: 28px
+        font-weight: bold
+        color: #111111
+        font-family: 'Montserrat', sans-serif
+    &__title p
+        font-family: SF-UI-Display, sans-serif
+        margin-top: 20px
+        color: #111111
+    &__white, &__black
+        width: 45%
+        line-height: 30px
+        box-shadow: 0px 0px 12px 0px black
+        border-radius: 7px
+    &__title_info
+        padding-top: 54px
+    &__title_info p
+        font-size: 22px  
+        text-align: center
+        font-weight: bold
+        color: #111111
+        font-family: 'Montserrat', sans-serif
+    &__info_wrap
+        display: flex
+        justify-content: space-between
+        margin-top: 65px
+    &__white p, &__white span
+        font-family: 'Montserrat', sans-serif
+        color: #111111
+    &__white span
+        font-size: 20px
+        font-weight: bold
+    .info-card
+        display: flex
+        align-items: baseline
+        justify-content: space-between
+        padding-left: 50px
+        padding-right: 50px
+        padding-top: 30px
+    .box-info
+        width: 50%
+    &__marketing
+        padding-bottom: 54px
+    &__black
+        background: #2A2A2A
+    &__black p, &__black span
+        font-family: 'Montserrat', sans-serif
+        color: #fff
+    &__black span
+        font-size: 20px
+        font-weight: bold
+        color: #FF8E00
+    .box-title
+        width: 30%
+    .line-box-white, .line-box-dark
+        display: none
+
+    &__link_btn
+        color: #fff !important
+        font-family: 'Montserrat', sans-serif
+        font-size: 14px 
+        background: #FF8E00
+        padding-top: 15px
+        padding-bottom: 15px
+        padding-left: 25px
+        padding-right: 25px
+        border-radius: 7px
+    &__link_btn:hover
+        background: rgb(17,17,17)
+        background: -moz-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: -webkit-linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        background: linear-gradient(22deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 40%, rgba(255,142,0,1) 100%)
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#111111",endColorstr="#ff8e00",GradientType=1)
+        
+    &__btn
+        margin-top: 50px
+
+.calc
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+    &__title
+        padding-top: 80px
+    &__title p
+        text-align: right
+        font-size: 28px
+        font-weight: bold
+        color: #111111
+        font-family: 'Montserrat', sans-serif   
+    &__info_wrap
+        margin-top: 65px
+        display: flex
+        padding-bottom: 80px
+    &__info, &__img
+        width: 50%
+    &__info
+        margin-left: 20px
+    &__img
+        margin-right: 20px
+    &__img img
+        max-width: 100%
+        height: auto
+    &__title_info p
+        font-family: SF-UI-Display, sans-serif
+        color: #111111
+    &__title_info
+        margin-top: 20px
+        margin-bottom: 50px
+    &__price
+        margin-top: 50px
+    &__price span
+        font-weight: bold
+        font-size: 20px
+    &__price p, &__price span
+        color: #111111
+        font-family: 'Montserrat', sans-serif  
+    .irs-bar
+        background-color: #FF8E00 !important
+        border-radius: 10 0 0 10px !important
+    .irs-min, .irs-single, .irs-max
+        font-weight: bold !important
+        font-size: 18px !important
+        color: #111111 !important
+        font-family: 'Montserrat', sans-serif !important
+        background: transparent !important
+        padding-bottom: 10px
+        margin-top: -15px
+    .irs-single:before
+        display: none !important
+    .irs-handle
+        background: #FFFFFF !important
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2) !important
+        border-radius: 50% !important
+        top: 18px !important
+        height: 25px !important
+        width: 25px !important
+    .irs-handle:focus
+        outline: none !important
+    .irs-handle i
+        display: none !important
+
+.open
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+    &__title
+        padding-top: 80px
+
+    &__title span
+        font-size: 28px
+        font-weight: bold
+        color: #111111
+        font-family: 'Montserrat', sans-serif
+    &__title p
+        font-family: SF-UI-Display, sans-serif
+        margin-top: 20px
+        color: #111111
+    &__info
+        display: flex
+        
+        font-family: 'Montserrat', sans-serif
+    &__info span
+        color: #FF8E00
+        font-weight: bold
+        font-size: 52px
+    &__info p
+        font-weight: bold
+    &__number p
+        margin-top: 10px
+    &__number
+        margin-bottom: 20px
+        margin-right: 100px
+    &__info_wrap
+        margin-top: 50px
+        padding-bottom: 80px
+
+.form
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+        display: flex
+        align-items: center
+    &__title
+        padding-top: 80px
+    form
+        padding-left: 30px
+        padding-right: 30px
+        margin-bottom: 80px
+        width: 45%
+        box-shadow: 0px 0px 12px 0px black
+        z-index: 1
+        background: #fff
+    &__title span
+        font-size: 28px
+        font-weight: bold
+        color: #111111
+        font-family: 'Montserrat', sans-serif
+    &__title p
+        font-family: SF-UI-Display, sans-serif
+        margin-top: 20px
+        margin-bottom: 20px
+        color: #111111
+    label,  input
+        color: #111111
+    input
+        font-family: 'Montserrat', sans-serif
+        margin-bottom: 25px
+        margin-top: 15px
+        padding-left: 20px
+        padding-right: 20px
+        padding-top: 10px
+        padding-bottom: 10px
+        width: 50%
+        background: rgba(196, 196, 196, 0.15)
+        border-radius: 3.26585px
+        border: none
+        font-size: 12px
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button
+        -webkit-appearance: none
+    label
+        font-family: SF-UI-Display, sans-serif
+        font-weight: bold
+        display: flex
+    input:focus
+        outline: none
+    .btn-sub
+        display: flex
+        padding-bottom: 80px
+    .btn-sub button
+        color: #fff !important
+        font-family: 'Montserrat', sans-serif
+        font-size: 14px
+        background: #FF8E00
+        padding-top: 15px
+        padding-bottom: 15px
+        padding-left: 25px
+        padding-right: 25px
+        border-radius: 7px
+        border: none
+    .btn-sub button:hover
+        background: linear-gradient(22deg, #111111 0%, #fd1d1d 40%, #ff8e00 100%)
+        cursor: pointer
+    .btn-sub button:focus
+        outline: none
+    &__right_sidebar
+        background: #FF8E00
+        height: 500px
+        width: 90%
+        position: absolute
+
+.footer
+    background: #2A2A2A
+    &__wrap
+        padding-left: 10%
+        padding-right: 10%
+    &__title
+        padding-top: 80px
+    &__title p
+        font-size: 28px
+        font-weight: bold
+        color: #fff
+        font-family: 'Montserrat', sans-serif
+    &__contact_info p, &__contact_info a
+        font-family: SF-UI-Display
+        color: #fff
+        font-size: 14px
+    &__phone, &__mail, &__location
+        display: flex
+        align-items: center
+        padding-bottom: 15px
+    &__contact_info .fa, &__social_info .fa
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 40px
+        height: 40px
+        color: #fff
+        font-size: 18px
+        border-radius: 50%
+        margin-right: 10px
+    &__contacts
+        display: flex
+        padding-top: 50px
+        padding-bottom: 65px
+    &__social_info .fa
+        background: #FF8E00
+    &__contact_info .fa
+        background: #626262
+    &__social_info .fa img
+        width: 22px
+    &__social_info .fa:hover
+        background: linear-gradient(22deg, #111111 0%, #fd1d1d 40%, #ff8e00 100%)
+    &__contact_info a:hover
+        color: #FF8E00
+    &__contact_info a
+        outline: none
+    &__social_wrap
+        display: flex
+    &__contact_info
+        margin-right: 200px
+    
